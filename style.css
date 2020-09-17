@@ -131,3 +131,20 @@ li a{
     padding-top: 30px;
     font-size: 1.5em;
 }
+
+button{
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px, 5px, 10px, 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    outline: none;
+
+}
+button:hover{
+    background-color: rgb(241, 0, 0);
+}
+button:active{
+    background-color: rgb(219, 0, 0);
+}
