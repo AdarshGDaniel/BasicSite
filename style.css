@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg1{
+    text-align: center;
+    background-image: url(https://iso.500px.com/wp-content/uploads/2015/10/snow.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2{
+    text-align: center;
+    background-image: url(https://media.macphun.com/img/uploads/customer/blog/1554296795/15542980765ca4b4dcdfa463.33058128.jpg?q=85&w=2520);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.bg3{
+    text-align: center;
+    background-image: url(https://www.thephotoargus.com/wp-content/uploads/2019/02/streetphoto02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.bg4{
+    text-align: center;
+    background-image: url(https://static.photocrowd.com/upl/tK/cms.GMubG3T8eCjSsUylMZ6Q-collection_cover.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    padding-top: 40vh;
+    font-size: 5em;
+    font-family: 'Syne', sans-serif;
+    color: white;
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    width: 200px;
+}
+
+.footer{
+    height: 12vh;
+    background-color: rgb(54, 54, 54);
+}
+
+.nav_bar{
+    height: 45px;
+    text-align: right;
+    background-color: rgb(36, 36, 36);
+}
+
+.ham{
+    margin: 0;
+    display: inline-block;
+    text-align: right;
+    text-align: right;
+    cursor: pointer;
+    padding-right: 10px;
+    fill: white;
+    width: 30px;
+}
+
+.ham:hover{
+    border: none;
+    fill: rgb(255, 0, 0);
+}
+.ham:active{
+    fill: rgb(109, 2, 2);
+}
+.instag{
+    width: 30px;
+    transition: 0.2s;
+    transition-property: all;
+}
+.instag:hover{
+    width: 35px;
+}
+
+nav{
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li.h{
+    cursor: pointer;
+    font-size: 1.3em;
+    margin: 0 0 50px 50px;
+    opacity: 0.6;
+    transition: opacity ease-in-out 0.3s;
+}
+li.h.active{
+    opacity: 1;
+    border-bottom: solid 2px rgb(255, 0, 0);
+}
+li.h:hover{
+    opacity: 1;
+    border-bottom: solid 2px rgb(255, 0, 0);
+}
+li.h:active{
+    border-bottom: solid 2px rgb(168, 0, 0);
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(48, 48, 48);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    
+}
+.bg3 p{
+    color: white;
+    padding-top: 30px;
+    font-size: 1.5em;
+}
